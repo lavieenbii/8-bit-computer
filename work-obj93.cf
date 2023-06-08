@@ -1,0 +1,31 @@
+v 4
+file . "computer_tb.vhdl" "0b990953c3c6232340e595fd7e803aff118dc9a1" "20230607205330.188":
+  entity computer_tb at 1( 0) + 0 on 93;
+  architecture computer_tb of computer_tb at 7( 80) + 0 on 94;
+file . "memory.vhdl" "519258c982b3e57094ea96a0ff7fe2aae22bdc90" "20230607185348.584":
+  entity memory at 1( 0) + 0 on 51;
+  architecture behavioral of memory at 49( 1927) + 0 on 52;
+file . "cpu.vhdl" "165dc927fe2edf2551ec960bf713f9f04fedcc10" "20230607203536.305":
+  entity cpu at 1( 0) + 0 on 85;
+  architecture behavioral of cpu at 13( 396) + 1 on 86;
+file . "rom_128x8_sync.vhdl" "f7db745d8383239a072ea398c101e10a30c42765" "20230607182057.759":
+  entity rom_128x8_sync at 2( 2) + 0 on 23;
+  architecture behavioral of rom_128x8_sync at 15( 292) + 0 on 24;
+file . "ALU.vhdl" "af21ad85341f7bece4ea7082408134089cc8bd86" "20230607202739.466":
+  entity alu at 1( 0) + 0 on 81;
+  architecture behavioral of alu at 15( 406) + 1 on 82;
+file . "rw_96x8_sync.vhdl" "278c0d3835efa579ea8ac293eae3362c1d56c41d" "20230607182027.192":
+  entity rw_96x8_sync at 2( 1) + 0 on 21;
+  architecture behavioral of rw_96x8_sync at 18( 349) + 0 on 22;
+file . "control_unit.vhdl" "c46ffb4f4041d7795e7aa60527db12dde82356bd" "20230607192849.655":
+  entity control_unit at 1( 0) + 0 on 57;
+  architecture behavioral of control_unit at 22( 820) + 1 on 58;
+file . "Output_Ports.vhdl" "b8b7a53fb839d26474d500bb3e76fe1cd05a72c4" "20230607185156.954":
+  entity output_ports at 1( 0) + 0 on 49;
+  architecture behavioral of output_ports at 33( 1269) + 0 on 50;
+file . "data_path.vhdl" "5a7caab867846b93b5d0553381c4a5c683e102ac" "20230607200219.247":
+  entity data_path at 1( 0) + 0 on 71;
+  architecture behavioral of data_path at 28( 1081) + 1 on 72;
+file . "computer.vhdl" "88cd2048df3ab70ba7000e4130637446e9b58e8f" "20230607205404.122":
+  entity computer at 1( 0) + 1 on 95;
+  architecture behavioral of computer at 42( 1927) + 1 on 96;
