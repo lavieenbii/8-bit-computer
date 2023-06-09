@@ -15,14 +15,16 @@ To create this VHDL program for each element we need creating all entities, conn
 
 Structure of program
 
-Computer.vhdl
-        - cpu.vhdl
-                - control_unit.vhdl
-                - data_path.vhdl
-                - ALU.vhdl
-        - memory.vhdl
-                - rom_128x8_sync.vhdl
-                - rw_96x8_sync.vhdl
+Markup :- Computer.vhdl
+                - cpu.vhdl
+                        - control_unit.vhdl
+                        - data_path.vhdl
+                        - ALU.vhdl
+                - memory.vhdl
+                        - rom_128x8_sync.vhdl
+                        - rw_96x8_sync.vhdl
+         
+
 
 
 
