@@ -2,9 +2,12 @@
 
 This project is part of the advance electronics final project. Instruction set and architecture of 8-bit computer are available at Chapter 13 in the book "Introduction to Logic Circuit and Logic Design with VHDL"
 
+
 ## 8 bit Computer Architecture
 
 This is the image of the 8 bit computer architecture from the books.
+
+
 
 ## Brief Explanation
 
@@ -12,16 +15,16 @@ To create this VHDL program for each element we need creating all entities, conn
 
 Structure of program
 
+Computer.vhdl
+        - cpu.vhdl
+                - control_unit.vhdl
+                - data_path.vhdl
+                - ALU.vhdl
+        - memory.vhdl
+                - rom_128x8_sync.vhdl
+                - rw_96x8_sync.vhdl
 
-.
-├── computer.vhdl
-    ├── cpu.vhdl
-        ├── control_unit.vhdl  
-        ├── data_path.vhdl
-        ├── ALU.vhdl  
-├── memory.vhdl  
-        ├── rom_128x8_sync.vhdl  
-        ├── rw_96x8_sync.vhdl
+
 
 ## Run this program using ghdl
 
@@ -34,6 +37,8 @@ ghdl -a --ieee=synopsys -fexplicit files.vhdl
 ```bash
 ghdl -e --ieee=synopsys -fexplicit files
 ```
+
+
 
 ## Simulate the program using gtk wave
 
