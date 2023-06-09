@@ -35,7 +35,7 @@ ghdl -a --ieee=synopsys -fexplicit files.vhdl
 ghdl -e --ieee=synopsys -fexplicit files
 ```
 
-# Simulate the program using gtk wave
+## Simulate the program using gtk wave
 
 to make vcd test bench files for simulation
 
