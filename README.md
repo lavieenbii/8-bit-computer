@@ -11,21 +11,21 @@ This is the image of the 8 bit computer architecture from the books.
 To create this VHDL program for each element we need creating all entities, connection each of the component.
 
 Structure of program
+
+
 .
 ├── computer.vhdl
-├── cpu.vhdl
-├── control_unit.vhdl  
- ├── data_path.vhdl
-├── ALU.vhdl  
+    ├── cpu.vhdl
+        ├── control_unit.vhdl  
+        ├── data_path.vhdl
+        ├── ALU.vhdl  
 ├── memory.vhdl  
- ├── rom_128x8_sync.vhdl  
- ├── rw_96x8_sync.vhdl
+        ├── rom_128x8_sync.vhdl  
+        ├── rw_96x8_sync.vhdl
 
 ## Run this program using ghdl
 
 To run this program we use ghdl and gtk wave.
-
-to synthesys the program :
 
 ```bash
 ghdl -a --ieee=synopsys -fexplicit files.vhdl
